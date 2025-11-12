@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 60;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		74FB78B92EC515DA008564CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B02EC515DA008564CE /* Assets.xcassets */; };
+		74FB78BB2EC515DA008564CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B32EC515DA008564CE /* LaunchScreen.storyboard */; };
+		74FB78BC2EC515DA008564CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B52EC515DA008564CE /* Main.storyboard */; };
+		74FB78BD2EC515DA008564CE /* CoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78962EC515DA008564CE /* CoinsView.swift */; };
+		74FB78BE2EC515DA008564CE /* MainBackGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78972EC515DA008564CE /* MainBackGradient.swift */; };
+		74FB78BF2EC515DA008564CE /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78982EC515DA008564CE /* MainButton.swift */; };
+		74FB78C02EC515DA008564CE /* QuestionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78992EC515DA008564CE /* QuestionButtonView.swift */; };
+		74FB78C12EC515DA008564CE /* AchvmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB789B2EC515DA008564CE /* AchvmentsView.swift */; };
+		74FB78C22EC515DA008564CE /* AchvmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB789C2EC515DA008564CE /* AchvmentsViewModel.swift */; };
+		74FB78C32EC515DA008564CE /* JesterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB789E2EC515DA008564CE /* JesterViewModel.swift */; };
+		74FB78C42EC515DA008564CE /* MatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78A02EC515DA008564CE /* MatchViewModel.swift */; };
+		74FB78C52EC515DA008564CE /* JesterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78A32EC515DA008564CE /* JesterView.swift */; };
+		74FB78C62EC515DA008564CE /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78A52EC515DA008564CE /* MatchView.swift */; };
+		74FB78C72EC515DA008564CE /* QuizRokiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78A72EC515DA008564CE /* QuizRokiView.swift */; };
+		74FB78C82EC515DA008564CE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78A92EC515DA008564CE /* SettingsView.swift */; };
+		74FB78C92EC515DA008564CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78AB2EC515DA008564CE /* ContentView.swift */; };
+		74FB78CA2EC515DA008564CE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78AC2EC515DA008564CE /* StartView.swift */; };
+		74FB78CB2EC515DA008564CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78AF2EC515DA008564CE /* AppDelegate.swift */; };
+		74FB78CC2EC515DA008564CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78B62EC515DA008564CE /* SceneDelegate.swift */; };
+		74FB78CD2EC515DA008564CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FB78B72EC515DA008564CE /* ViewController.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34782062AD7761A3A02F4067 /* Pods-MegaRoki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaRoki.release.xcconfig"; path = "Target Support Files/Pods-MegaRoki/Pods-MegaRoki.release.xcconfig"; sourceTree = "<group>"; };
 		7483AA422EC22E05007721F5 /* MegaRoki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaRoki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FB78962EC515DA008564CE /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
+		74FB78972EC515DA008564CE /* MainBackGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackGradient.swift; sourceTree = "<group>"; };
+		74FB78982EC515DA008564CE /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		74FB78992EC515DA008564CE /* QuestionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionButtonView.swift; sourceTree = "<group>"; };
+		74FB789B2EC515DA008564CE /* AchvmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchvmentsView.swift; sourceTree = "<group>"; };
+		74FB789C2EC515DA008564CE /* AchvmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchvmentsViewModel.swift; sourceTree = "<group>"; };
+		74FB789E2EC515DA008564CE /* JesterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesterViewModel.swift; sourceTree = "<group>"; };
+		74FB78A02EC515DA008564CE /* MatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewModel.swift; sourceTree = "<group>"; };
+		74FB78A32EC515DA008564CE /* JesterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesterView.swift; sourceTree = "<group>"; };
+		74FB78A52EC515DA008564CE /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
+		74FB78A72EC515DA008564CE /* QuizRokiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRokiView.swift; sourceTree = "<group>"; };
+		74FB78A92EC515DA008564CE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74FB78AB2EC515DA008564CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74FB78AC2EC515DA008564CE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		74FB78AF2EC515DA008564CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FB78B02EC515DA008564CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FB78B12EC515DA008564CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FB78B22EC515DA008564CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FB78B42EC515DA008564CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FB78B62EC515DA008564CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74FB78B72EC515DA008564CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8FD96CB5420E3B5174401ED8 /* Pods_MegaRoki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MegaRoki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47A1BC7053D0E6A0E8578FF /* Pods-MegaRoki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaRoki.debug.xcconfig"; path = "Target Support Files/Pods-MegaRoki/Pods-MegaRoki.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7483AB6A2EC26E31007721F5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7483AA412EC22E05007721F5 /* MegaRoki */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7483AB622EC26E31007721F5 /* MegaRoki */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (7483AB6A2EC26E31007721F5 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = MegaRoki; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7483AA3F2EC22E05007721F5 /* Frameworks */ = {
@@ -49,7 +79,7 @@
 		7483AA392EC22E05007721F5 = {
 			isa = PBXGroup;
 			children = (
-				7483AB622EC26E31007721F5 /* MegaRoki */,
+				74FB78B82EC515DA008564CE /* MegaRoki */,
 				7483AA432EC22E05007721F5 /* Products */,
 				96BE320BA3973159989CD991 /* Pods */,
 				004711F90F03B0642D386710 /* Frameworks */,
@@ -62,6 +92,122 @@
 				7483AA422EC22E05007721F5 /* MegaRoki.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		74FB789A2EC515DA008564CE /* Helpters */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78962EC515DA008564CE /* CoinsView.swift */,
+				74FB78972EC515DA008564CE /* MainBackGradient.swift */,
+				74FB78982EC515DA008564CE /* MainButton.swift */,
+				74FB78992EC515DA008564CE /* QuestionButtonView.swift */,
+			);
+			path = Helpters;
+			sourceTree = "<group>";
+		};
+		74FB789D2EC515DA008564CE /* Achvments */ = {
+			isa = PBXGroup;
+			children = (
+				74FB789B2EC515DA008564CE /* AchvmentsView.swift */,
+				74FB789C2EC515DA008564CE /* AchvmentsViewModel.swift */,
+			);
+			path = Achvments;
+			sourceTree = "<group>";
+		};
+		74FB789F2EC515DA008564CE /* jester */ = {
+			isa = PBXGroup;
+			children = (
+				74FB789E2EC515DA008564CE /* JesterViewModel.swift */,
+			);
+			path = jester;
+			sourceTree = "<group>";
+		};
+		74FB78A12EC515DA008564CE /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A02EC515DA008564CE /* MatchViewModel.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		74FB78A22EC515DA008564CE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74FB789D2EC515DA008564CE /* Achvments */,
+				74FB789F2EC515DA008564CE /* jester */,
+				74FB78A12EC515DA008564CE /* Match */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74FB78A42EC515DA008564CE /* jester */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A32EC515DA008564CE /* JesterView.swift */,
+			);
+			path = jester;
+			sourceTree = "<group>";
+		};
+		74FB78A62EC515DA008564CE /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A52EC515DA008564CE /* MatchView.swift */,
+			);
+			path = Match;
+			sourceTree = "<group>";
+		};
+		74FB78A82EC515DA008564CE /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A72EC515DA008564CE /* QuizRokiView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		74FB78AA2EC515DA008564CE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A92EC515DA008564CE /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		74FB78AD2EC515DA008564CE /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78AB2EC515DA008564CE /* ContentView.swift */,
+				74FB78AC2EC515DA008564CE /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		74FB78AE2EC515DA008564CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74FB78A42EC515DA008564CE /* jester */,
+				74FB78A62EC515DA008564CE /* Match */,
+				74FB78A82EC515DA008564CE /* Quiz */,
+				74FB78AA2EC515DA008564CE /* Settings */,
+				74FB78AD2EC515DA008564CE /* Start */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74FB78B82EC515DA008564CE /* MegaRoki */ = {
+			isa = PBXGroup;
+			children = (
+				74FB789A2EC515DA008564CE /* Helpters */,
+				74FB78A22EC515DA008564CE /* ViewModels */,
+				74FB78AE2EC515DA008564CE /* Views */,
+				74FB78AF2EC515DA008564CE /* AppDelegate.swift */,
+				74FB78B02EC515DA008564CE /* Assets.xcassets */,
+				74FB78B12EC515DA008564CE /* Info.plist */,
+				74FB78B32EC515DA008564CE /* LaunchScreen.storyboard */,
+				74FB78B52EC515DA008564CE /* Main.storyboard */,
+				74FB78B62EC515DA008564CE /* SceneDelegate.swift */,
+				74FB78B72EC515DA008564CE /* ViewController.swift */,
+			);
+			path = MegaRoki;
 			sourceTree = "<group>";
 		};
 		96BE320BA3973159989CD991 /* Pods */ = {
@@ -88,9 +234,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7483AB622EC26E31007721F5 /* MegaRoki */,
 			);
 			name = MegaRoki;
 			productName = MegaRoki;
@@ -135,6 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FB78B92EC515DA008564CE /* Assets.xcassets in Resources */,
+				74FB78BB2EC515DA008564CE /* LaunchScreen.storyboard in Resources */,
+				74FB78BC2EC515DA008564CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,10 +316,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74FB78BD2EC515DA008564CE /* CoinsView.swift in Sources */,
+				74FB78BE2EC515DA008564CE /* MainBackGradient.swift in Sources */,
+				74FB78BF2EC515DA008564CE /* MainButton.swift in Sources */,
+				74FB78C02EC515DA008564CE /* QuestionButtonView.swift in Sources */,
+				74FB78C12EC515DA008564CE /* AchvmentsView.swift in Sources */,
+				74FB78C22EC515DA008564CE /* AchvmentsViewModel.swift in Sources */,
+				74FB78C32EC515DA008564CE /* JesterViewModel.swift in Sources */,
+				74FB78C42EC515DA008564CE /* MatchViewModel.swift in Sources */,
+				74FB78C52EC515DA008564CE /* JesterView.swift in Sources */,
+				74FB78C62EC515DA008564CE /* MatchView.swift in Sources */,
+				74FB78C72EC515DA008564CE /* QuizRokiView.swift in Sources */,
+				74FB78C82EC515DA008564CE /* SettingsView.swift in Sources */,
+				74FB78C92EC515DA008564CE /* ContentView.swift in Sources */,
+				74FB78CA2EC515DA008564CE /* StartView.swift in Sources */,
+				74FB78CB2EC515DA008564CE /* AppDelegate.swift in Sources */,
+				74FB78CC2EC515DA008564CE /* SceneDelegate.swift in Sources */,
+				74FB78CD2EC515DA008564CE /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FB78B32EC515DA008564CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FB78B22EC515DA008564CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74FB78B52EC515DA008564CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FB78B42EC515DA008564CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7483AA562EC22E06007721F5 /* Debug */ = {
