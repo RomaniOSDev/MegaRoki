@@ -14,10 +14,22 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else {return}
-        window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UIHostingController(rootView: ContentView())
-        window?.makeKeyAndVisible()
+        guard let windowScene = scene as? UIWindowScene else { return }
+
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+
+        // MARK: - Определяем стартовый контроллер
+        let controller: UIViewController = {
+            guard let lastUrl = SaveService.lastUrl, !lastUrl.absoluteString.isEmpty else {
+                return LoadingSplash()
+            }
+            print("Last URL:", lastUrl)
+            return WebviewVC(url: lastUrl)
+        }()
+
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

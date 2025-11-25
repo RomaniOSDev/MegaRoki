@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743AFB632ED4E778009EE5D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743AFB622ED4E778009EE5D4 /* GoogleService-Info.plist */; };
+		743AFB662ED4E9A0009EE5D4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 743AFB652ED4E9A0009EE5D4 /* FirebaseDatabase */; };
+		743AFB6D2ED4EAEA009EE5D4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB6B2ED4EAEA009EE5D4 /* Extensions.swift */; };
+		743AFB6E2ED4EAEA009EE5D4 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB692ED4EAEA009EE5D4 /* InternetViewController.swift */; };
+		743AFB6F2ED4EAEA009EE5D4 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB672ED4EAEA009EE5D4 /* CheckLink.swift */; };
+		743AFB702ED4EAEA009EE5D4 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB6A2ED4EAEA009EE5D4 /* LoaderViewController.swift */; };
+		743AFB712ED4EAEA009EE5D4 /* OneSignalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB682ED4EAEA009EE5D4 /* OneSignalService.swift */; };
+		743AFB732ED4EB5A009EE5D4 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743AFB722ED4EB51009EE5D4 /* FireBaseManager.swift */; };
+		743AFB762ED4EEA5009EE5D4 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 743AFB752ED4EEA5009EE5D4 /* OneSignalFramework */; };
+		743AFB792ED4EED5009EE5D4 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = 743AFB782ED4EED5009EE5D4 /* AppsFlyerLib */; };
 		74FB78B92EC515DA008564CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B02EC515DA008564CE /* Assets.xcassets */; };
 		74FB78BB2EC515DA008564CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B32EC515DA008564CE /* LaunchScreen.storyboard */; };
 		74FB78BC2EC515DA008564CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FB78B52EC515DA008564CE /* Main.storyboard */; };
@@ -31,7 +41,15 @@
 
 /* Begin PBXFileReference section */
 		34782062AD7761A3A02F4067 /* Pods-MegaRoki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MegaRoki.release.xcconfig"; path = "Target Support Files/Pods-MegaRoki/Pods-MegaRoki.release.xcconfig"; sourceTree = "<group>"; };
+		743AFB622ED4E778009EE5D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		743AFB672ED4EAEA009EE5D4 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		743AFB682ED4EAEA009EE5D4 /* OneSignalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalService.swift; sourceTree = "<group>"; };
+		743AFB692ED4EAEA009EE5D4 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		743AFB6A2ED4EAEA009EE5D4 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		743AFB6B2ED4EAEA009EE5D4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		743AFB722ED4EB51009EE5D4 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
 		7483AA422EC22E05007721F5 /* MegaRoki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaRoki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749684D42ED5982700DA5FB7 /* MegaRoki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MegaRoki.entitlements; sourceTree = "<group>"; };
 		74FB78962EC515DA008564CE /* CoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsView.swift; sourceTree = "<group>"; };
 		74FB78972EC515DA008564CE /* MainBackGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackGradient.swift; sourceTree = "<group>"; };
 		74FB78982EC515DA008564CE /* MainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
@@ -62,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743AFB762ED4EEA5009EE5D4 /* OneSignalFramework in Frameworks */,
+				743AFB662ED4E9A0009EE5D4 /* FirebaseDatabase in Frameworks */,
+				743AFB792ED4EED5009EE5D4 /* AppsFlyerLib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,19 @@
 				8FD96CB5420E3B5174401ED8 /* Pods_MegaRoki.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		743AFB6C2ED4EAEA009EE5D4 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				743AFB722ED4EB51009EE5D4 /* FireBaseManager.swift */,
+				743AFB672ED4EAEA009EE5D4 /* CheckLink.swift */,
+				743AFB682ED4EAEA009EE5D4 /* OneSignalService.swift */,
+				743AFB692ED4EAEA009EE5D4 /* InternetViewController.swift */,
+				743AFB6A2ED4EAEA009EE5D4 /* LoaderViewController.swift */,
+				743AFB6B2ED4EAEA009EE5D4 /* Extensions.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 		7483AA392EC22E05007721F5 = {
@@ -196,6 +230,7 @@
 		74FB78B82EC515DA008564CE /* MegaRoki */ = {
 			isa = PBXGroup;
 			children = (
+				749684D42ED5982700DA5FB7 /* MegaRoki.entitlements */,
 				74FB789A2EC515DA008564CE /* Helpters */,
 				74FB78A22EC515DA008564CE /* ViewModels */,
 				74FB78AE2EC515DA008564CE /* Views */,
@@ -206,6 +241,8 @@
 				74FB78B52EC515DA008564CE /* Main.storyboard */,
 				74FB78B62EC515DA008564CE /* SceneDelegate.swift */,
 				74FB78B72EC515DA008564CE /* ViewController.swift */,
+				743AFB622ED4E778009EE5D4 /* GoogleService-Info.plist */,
+				743AFB6C2ED4EAEA009EE5D4 /* LoadingView */,
 			);
 			path = MegaRoki;
 			sourceTree = "<group>";
@@ -264,6 +301,11 @@
 				Base,
 			);
 			mainGroup = 7483AA392EC22E05007721F5;
+			packageReferences = (
+				743AFB642ED4E9A0009EE5D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				743AFB742ED4EEA5009EE5D4 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				743AFB772ED4EED5009EE5D4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
 			productRefGroup = 7483AA432EC22E05007721F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -279,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74FB78B92EC515DA008564CE /* Assets.xcassets in Resources */,
+				743AFB632ED4E778009EE5D4 /* GoogleService-Info.plist in Resources */,
 				74FB78BB2EC515DA008564CE /* LaunchScreen.storyboard in Resources */,
 				74FB78BC2EC515DA008564CE /* Main.storyboard in Resources */,
 			);
@@ -321,6 +364,12 @@
 				74FB78BF2EC515DA008564CE /* MainButton.swift in Sources */,
 				74FB78C02EC515DA008564CE /* QuestionButtonView.swift in Sources */,
 				74FB78C12EC515DA008564CE /* AchvmentsView.swift in Sources */,
+				743AFB6D2ED4EAEA009EE5D4 /* Extensions.swift in Sources */,
+				743AFB6E2ED4EAEA009EE5D4 /* InternetViewController.swift in Sources */,
+				743AFB732ED4EB5A009EE5D4 /* FireBaseManager.swift in Sources */,
+				743AFB6F2ED4EAEA009EE5D4 /* CheckLink.swift in Sources */,
+				743AFB702ED4EAEA009EE5D4 /* LoaderViewController.swift in Sources */,
+				743AFB712ED4EAEA009EE5D4 /* OneSignalService.swift in Sources */,
 				74FB78C22EC515DA008564CE /* AchvmentsViewModel.swift in Sources */,
 				74FB78C32EC515DA008564CE /* JesterViewModel.swift in Sources */,
 				74FB78C42EC515DA008564CE /* MatchViewModel.swift in Sources */,
@@ -364,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MegaRoki/MegaRoki.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -378,7 +428,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bev.m3g4r0k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -401,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MegaRoki/MegaRoki.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -415,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bev.m3g4r0k;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -573,6 +624,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		743AFB642ED4E9A0009EE5D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		743AFB742ED4EEA5009EE5D4 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.15;
+			};
+		};
+		743AFB772ED4EED5009EE5D4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		743AFB652ED4E9A0009EE5D4 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743AFB642ED4E9A0009EE5D4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		743AFB752ED4EEA5009EE5D4 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743AFB742ED4EEA5009EE5D4 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		743AFB782ED4EED5009EE5D4 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 743AFB772ED4EED5009EE5D4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7483AA3A2EC22E05007721F5 /* Project object */;
 }
